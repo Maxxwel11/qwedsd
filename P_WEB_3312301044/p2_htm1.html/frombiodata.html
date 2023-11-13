@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>P2_html.html</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="frombiodata.html">From Biodata</a></li>
+            <li><a href="biodata.html">Biodata</a></li>
+            <li><a href="daftarnilai.html">Daftar Nilai</a></li>
+        </ul>
+    </nav>
+
+    <!-- UNTUK HOME-->
+    <section id="">
+         <img align="left" width="130" height="130" src="logo.png"/>
+         <img align="right" width="130" height="130" src="hmti.jpg"/>
+         <div class="bio">
+            <center>
+                <div class="wrapper">
+                    <h2>Politeknik Negeri Batam</h2>
+                    <h3>Teknik Informatika</h3>
+                    <h3>Batam Centre, Jln. Ahmad Yani Batam Kota</h3>
+                </div>
+            </center>
+            <hr class="garis">
+        </section>
+
+        <table border="1" bordercolor="blue">
+            <tr>
+                <td>
+                    <center>
+                        <h2>FORMAT BIODATA</h2>
+                    </center>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <form name="fm-input">
+                        <table>
+                            <tr>
+                                <td><label for="nama">Nama Lengkap</label></td>
+                                <td>:</td>
+                                <td><input type="text" size="30" name="nama" id="nama" /></td>
+                            </tr>
+                            <td><label for="tll">Tempat, Tanggal Lahir</label></td>
+                                <td>:</td>
+                                <td>
+                                    <input type="text" size="30" name="nama" />,
+                                    <input type="text" size="4" name="tgl" />/
+                                    <input type="text" size="4" name="bln" />/
+                                    <input type="text" size="7" name="thn" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><label for="alamat">Alamat</label></td>
+                                <td>:</td>
+                                <td><textarea name="alamat" id="alamat" cols="50" rows="4"></textarea></td>
+                            </tr>
+                            <tr>
+                                <td><label for="telp">Kota</label></td>
+                                <td>:</td>
+                                <td><input type="text" size="40" name="telp" id="telp" /></td>
+                            </tr>
+                            <tr>
+                                <td><label for="jkl">Pekerjaan</label></td>
+                                <td>:</td>
+                                <td>
+                                    <select name="pekerjaan"> 
+                                        <option value="KARYAWAN">KARYAWAN</option>
+                                        <option value="TNI">TNI</option>
+                                        <option value="PNS">PNS</option>
+                                        <option value="SOPIR">SOPIR</option>
+                                        <option value="GURU">GURU</option>
+                                        <option value="GURU">POLISI</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><label for="jkl">Jenis Kelamin</label></td>
+                                <td>:</td>
+                                <td>
+                                    <input type="radio" name="jkl" value="Laki-Laki" id="laki" />
+                                    <label for="laki">LakiLaki</label>
+                                    <input type="radio" name="jkl" value="Perempuan" id="perempuan" />
+                                    <label for="perempuan">Perempuan</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><label for="agama">Agama</label></td>
+                                <td>:</td>
+                                <td><input type="text" size="40" name="agama" id="agama" /></td>
+                            </tr>
+                            <tr>
+                                <td><label for="hoby">Hoby</label></td>
+                                <td>:</td>
+                                <td>
+                                    <input type="checkbox" name="hoby[]" id="bacabuku" value="Baca Buku" />
+                                    <label for="bacabuku">Baca Buku</label>
+                                    <input type="checkbox" name="hoby[]" id="olahraga" value="Berenang" />
+                                    <label for="olahraga">Berenang</label>
+                                    <input type="checkbox" name="hoby[]" id="maingame" value="Voly" />
+                                    <label for="maingame">Voly</label>
+                                    <input type="checkbox" name="hoby[]" id="hiking" value="run" />
+                                    <label for="run">Run</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td>
+                                    <input type="submit" name="Kirim" value="kirim" />
+                                    <input type="reset" name="cancel" value="cancel" />
+                                </td> 
+                            </tr>
+                        </table>
+                    </form>
+                </td>
+            </tr>
+        </table>
+     </section>
+        </div>
+ </body>
+</html>

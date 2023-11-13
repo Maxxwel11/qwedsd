@@ -1,0 +1,141 @@
+
+.garis {
+    border: 0;
+    height: 20px;
+    border-style: solid;
+    border-color: #8c8c8c;
+    border-width: 1px 0 0 0;
+    border-radius: 30px;
+}
+
+.garis ::before {
+    display: block;
+    content: "";
+    height: 40px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: #8c8c8c;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #ffffff;
+    z-index: 1;
+    border-bottom:1px solid #364f6b;
+}
+
+    nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    nav ul li {
+        float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 165px 0px 165px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    color: rgb(0, 0, 0);
+    font-size: 300%;
+}
+
+h2 {
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+h3 {
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+    font-size: 25px;
+    font-style: normal;
+}
+
+form {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+tr td {
+    font-size: larger;
+    font-weight: normal;
+}
+
+ .data {
+    background: #ffffff;
+    font-size: 14px;
+    border-radius: 60px;
+    margin-top: 60px;
+    padding: 15px 20px 15px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+ }
+
+ .data:hover {
+    background: #85d0ff;
+    text-decoration: none;
+ }
+
+.data {
+    background-color: #85d0ff;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.f:hover {
+    background: #5500ff;
+    text-decoration: none;
+}
+.f {
+    background: #ffffff;
+    font-size: 14px;
+    border-radius: 60px;
+    margin-top: 60px;
+    padding: 15px 20px 15px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+ }
+ .f:hover {
+    background: #85d0ff;
+    text-decoration: none;
+ }
+
+.f {
+    background-color: #85d0ff;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.data:hover {
+    background: #5500ff;
+    text-decoration: none;
+}
+
+
